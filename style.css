@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.section {
+    width: 100%;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fundoHeader.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 500px;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    background-color: rgba(202, 198, 198, .5);
+    border: 1px solid rgb(161, 159, 159);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 73px;
+}
+
+.fotoNome {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fotoPerfil {
+    width: 80px;
+    height:100px;
+    border-radius: 10px;
+}
+
+.nome {
+    font-size: 22px;
+    text-shadow: 0px 1px 2px black;
+    margin-left: 10px;
+}
+
+.cargo {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
