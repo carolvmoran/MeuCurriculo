@@ -9,45 +9,68 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(img/fundoHeader.jfif);
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+
+    /* background-image: url(img/fundoHeader.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 500px;
+    background-position: bottom; */
 }
-
+.bannerHeaderImage {
+    opacity: 0.2;
+    width: 100%;
+    height: 200px;
+    
+}
 .descricao {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: flex-end;
+    /* flex-direction: column; */
     justify-content: space-around;
-    width: 35%;
-    background-color: rgba(202, 198, 198, .5);
-    border: 1px solid rgb(161, 159, 159);
-    border-radius: 10px;
+    width: 95%;
+    /* background-color: rgba(202, 198, 198, .5); */
+    /* border: 1px solid rgb(161, 159, 159); */
+    /* border-radius: 10px; */
     padding: 20px;
-    margin-bottom: 73px;
+    /* margin-bottom: 73px; */
 }
 
-.fotoNome {
+.dados {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    width: 90%;
+    position: absolute;
+    margin-top: 200px;
 }
 .fotoPerfil {
-    width: 80px;
-    height:100px;
-    border-radius: 10px;
+    background-image: url(img/FotoPerfil.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-
+.nomeCargo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    padding: 40px;
+}
 .nome {
-    font-size: 22px;
-    text-shadow: 0px 1px 2px black;
-    margin-left: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    /* text-shadow: 0px 1px 2px black; */
 }
 
 .cargo {
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
     margin: 20px 0 0 0;
 }
